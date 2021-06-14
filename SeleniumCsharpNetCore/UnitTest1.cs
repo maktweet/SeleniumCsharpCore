@@ -21,7 +21,8 @@ namespace SeleniumCsharpNetCore
 
         //    new DriverManager().SetUpDriver(new ChromeConfig());
             Console.WriteLine("Test 1");
-            driver = new ChromeDriver(option);
+           // driver = new ChromeDriver(option);
+            driver = new ChromeDriver();
         }
 
         [Test]
